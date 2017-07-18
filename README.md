@@ -6,7 +6,7 @@ More details on Flink and how it is being used in the industry today available h
 
 The Ambari service lets you easily install/compile Flink on HDP 2.5.3
 - Features:
-  - By default, downloads prebuilt package of Flink 1.2, but also gives option to build the latest Flink from source instead
+  - By default, downloads prebuilt package of Flink 1.3.1, but also gives option to build the latest Flink from source instead
   - Exposes flink-conf.yaml in Ambari UI 
 
 Limitations:
@@ -23,7 +23,7 @@ Author: [Ali Bajwa](https://github.com/abajwa-hw)
 - Now start the VM
 - After it boots up, find the IP address of the VM and add an entry into your machines hosts file. For example:
 ```
-192.168.191.241 sandbox.hortonworks.com sandbox    
+192.168.191.3.141 sandbox.hortonworks.com sandbox    
 ```
   - Note that you will need to replace the above with the IP for your own VM
   
